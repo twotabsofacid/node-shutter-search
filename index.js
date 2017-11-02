@@ -10,7 +10,7 @@ class ShutterSearch {
 		return new Promise((resolve, reject) => {
 			request(url, (error, response, html) => {
 				if (error) {
-					reject(error);
+					return reject(error);
 				} else {
 					let $ = cheerio.load(html);
 					let results = $('.search-results-grid img');
@@ -22,7 +22,7 @@ class ShutterSearch {
 						src: `https:${randomResult.attribs.src}`,
 						alt: randomResult.attribs.alt
 					}
-					resolve(returnObj);
+					return resolve(returnObj);
 				}
 			});
 		})
