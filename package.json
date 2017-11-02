@@ -1,13 +1,24 @@
 {
   "name": "shutter-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "Search Shutterstock with node and return a random image based on a query term",
   "main": "index.js",
   "scripts": {
     "test": "node command-line-test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sean Scanlan <seanmichaelscanlan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skiprox/node-shutter-search"
+  },
+  "homepage": "https://github.com/skiprox/node-shutter-search",
+  "bugs": {
+    "url": "https://github.com/skiprox/node-shutter-search/issues"
+  },
+  "contributors": [
+    "skiprox"
+  ],
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.83.0"
