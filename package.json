@@ -1,5 +1,5 @@
 {
-  "name": "shutter-search",
+  "name": "node-shutter-search",
   "version": "1.0.0",
   "description": "Search Shutterstock with node and return a random image based on a query term",
   "main": "index.js",
