@@ -2,8 +2,10 @@ const shutterSearch = require('./index');
 
 class CommandLineTest {
 	constructor() {
-		new shutterSearch('man eating salad').then((data) => {
+		new shutterSearch('funny doctor').then((data) => {
 			console.log(data);
+		}).catch((error) => {
+			console.log(error);
 		});
 	}
 }
