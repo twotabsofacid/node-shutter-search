@@ -28,3 +28,19 @@ which should return something like:
 ```
 
 which you can use however you'd like.
+
+### Testing
+
+There is a command line test js file, `command-line-test.js`, which you can run by either doing
+
+```
+npm run test
+```
+
+or
+
+```
+node command-line-test.js
+```
+
+You can alter this file to search for whatever you like.
