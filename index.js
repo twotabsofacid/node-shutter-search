@@ -6,7 +6,7 @@ const cheerio = require('cheerio');
 class ShutterSearch {
 	constructor(keyterm) {
 		let newKeyterm = keyterm.split(' ').join('+');
-		let url = `https://www.shutterstock.com/search?&searchterm=${keyterm}&image_type=jpg`
+		let url = `https://www.shutterstock.com/search?&searchterm=${keyterm}&image_type=jpg`;
 		return new Promise((resolve, reject) => {
 			request(url, (error, response, html) => {
 				let returnObj = {};
