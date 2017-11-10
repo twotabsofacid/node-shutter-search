@@ -4,7 +4,7 @@
 
 ### Usage
 
-Require the package, like so:
+Install [the package](https://www.npmjs.com/package/node-shutter-search) from npm, then require the package, like so:
 
 ```
 const shutterSearch = require('shutter-search');
